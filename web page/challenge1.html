@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"
+        <body>
+            <div></div>
+            <div></div>
+            <div></div>
+
+
+            <style>
+                body {
+                    background: #007065;
+                }
+                div {
+                    width:0px;
+                    height:0px;
+                    border-left:125px solid transparent;
+                    border-right:125px solid transparent;
+                    border-bottom:100px solid #f5c181;
+                    position: absolute;
+                    top:50%;
+                    left:50%;
+                    transform: translate(-50%, -50%);
+                }
+
+                div:first-of-type{
+                    border-bottom-color:#ffeecf;
+                    transform: translate(-50%, -100%);
+                    z-index: 100;
+                }
+
+                div:last-of-type{
+                    border-bottom-color: #00a79d;
+                    transform: translate(-50%, -0);
+                    z-index: -100;
+                }
+
+                
+
+
+            </style>
+        </body>
+    </head>
+</html>
